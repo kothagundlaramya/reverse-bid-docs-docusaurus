@@ -63,6 +63,11 @@ const sidebars = {
         'reference/faq',
       ],
     },
+
+    // 🔹 New page added here
+    'High-level-overview',
+
+    // Existing page
     'summary',
   ],
 };
