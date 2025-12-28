@@ -3,6 +3,10 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   reverseBidSidebar: [
+    // Top-level page
+    'High-level-overview',
+
+    // Overview category
     {
       type: 'category',
       label: 'Overview',
@@ -13,6 +17,8 @@ const sidebars = {
         'overview/key-concepts',
       ],
     },
+
+    // How It Works category
     {
       type: 'category',
       label: 'How It Works',
@@ -24,6 +30,8 @@ const sidebars = {
         'how-it-works/pricing-and-selection-logic',
       ],
     },
+
+    // Interactions category
     {
       type: 'category',
       label: 'Interactions',
@@ -34,6 +42,8 @@ const sidebars = {
         'interactions/notifications',
       ],
     },
+
+    // Operations category
     {
       type: 'category',
       label: 'Operations',
@@ -44,6 +54,8 @@ const sidebars = {
         'operations/failure-handling',
       ],
     },
+
+    // Edge Cases category
     {
       type: 'category',
       label: 'Edge Cases',
@@ -54,6 +66,8 @@ const sidebars = {
         'edge-cases/fraud-and-abuse-controls',
       ],
     },
+
+    // Reference category
     {
       type: 'category',
       label: 'Reference',
@@ -64,10 +78,7 @@ const sidebars = {
       ],
     },
 
-    // 🔹 New page added here
-    'High-level-overview',
-
-    // Existing page
+    // Summary at the end
     'summary',
   ],
 };
